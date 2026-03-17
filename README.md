@@ -1,6 +1,6 @@
 # OnlyAI Academy — Remotion Video Skills
 
-A pair of Claude Code skills for generating production-ready, branded Remotion videos in the **OnlyAI Academy** visual style — automatically, from a single prompt.
+Three Claude Code skills for generating production-ready, branded Remotion videos — automatically, from a single prompt.
 
 ---
 
@@ -9,8 +9,9 @@ A pair of Claude Code skills for generating production-ready, branded Remotion v
 ```
 AI_Skills/
 └── Remotion SKills/
-    ├── onlyai-remotion-prompt/   ← Brand identity + prompt generator skill
-    └── remotion-best-practices/  ← Remotion API knowledge skill
+    ├── onlyai-remotion-prompt/      ← Brand identity + prompt generator skill
+    ├── bytemonk-system-design/      ← ByteMonk-style architecture diagram skill
+    └── remotion-best-practices/     ← Remotion API knowledge skill
 ```
 
 ### `onlyai-remotion-prompt`
@@ -20,6 +21,15 @@ Turns a topic/title into a complete Remotion component specification following O
 - Layout: Logo bottom-left, badge top-right, content centered
 - Topic-adaptive backgrounds (neural nodes, code overlays, glass cards)
 - Supports: 16:9 widescreen and 9:16 Instagram Reel
+
+### `bytemonk-system-design`
+Generates ByteMonk-style system design explainer animations using OnlyAI Academy's brand colors:
+- **ByteMonk's signature style**: dark background, architecture diagrams, animated data flow
+- Color-coded service boxes (orange = producers, teal = consumers, blue = databases)
+- Flowing particle dots along arrow paths showing live data movement
+- Subtle dot-grid background, bold title bar with accent strip
+- Progressive component reveal — builds the full architecture step by step
+- Use for: "how X works" explanations, microservices, API flows, system architecture
 
 ### `remotion-best-practices`
 Provides Remotion-specific coding knowledge so Claude writes correct React video code:
