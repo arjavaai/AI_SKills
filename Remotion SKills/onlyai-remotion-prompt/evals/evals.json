@@ -1,0 +1,23 @@
+{
+  "skill_name": "onlyai-remotion-prompt",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Create a Remotion course intro for 'Mastering Prompt Engineering'. Subtitle: 'From Zero to Expert in 5 Days'. It's an AI/LLM topic.",
+      "expected_output": "A complete Remotion component specification with: component name, animation type (Course Intro Screen), AI Workspace style mode, exact hex colors from OnlyAI palette, Space Grotesk + Inter font specs, frame-by-frame animation sequence with spring configs, background motif (neural grid/glowing nodes for AI topic), and a note to pass to remotion-best-practices skill.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I need a lower third animation for a guest speaker. Name: Dr. Sarah Chen. Title: Head of AI Research at TechCorp. Use Light Glass style.",
+      "expected_output": "A complete Remotion lower-third specification: 2-3 second duration, slide-in-from-left animation, Light Glass style with white/light-gray background and deep navy text, orange accent bar/line, exact spring config for the slide animation, Inter font for the name and title, and a note to pass to remotion-best-practices skill.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Make a section intro card for 'Module 4: Building RAG Pipelines'. It should feel like a developer/code themed animation. Dark UI mode.",
+      "expected_output": "A complete Remotion section intro specification: Dark UI mode (#060D1F background), code overlay / terminal grid background motif, Space Grotesk heading, module badge/label, animated line draw, 3-5 second duration, dark palette with orange accent highlights, exact frame timeline, and a note to pass to remotion-best-practices skill.",
+      "files": []
+    }
+  ]
+}
